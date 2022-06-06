@@ -11,6 +11,6 @@ Requirement : numpy, pandas, matplotlib, seaborn, and sci-kit learn (sklearn)
 ## Overview 
 I'm using 'Spotify_Data.csv' as the main data, you can check more about this dataset [here](https://www.kaggle.com/code/vatsalmavani/music-recommendation-system-using-spotify-dataset/data). After importing the dataset I'm limitting the year (2010 - 2020), after that I'm take the featured column. The next step is I'm defining the x (independent variable) and y variables to split the data into training and test using `from sklearn.model_selection import train_test_split`. The last thing is applying KNN model using `from sklearn.neighbors import KNeighborsClassifier`, and it's accuracy using `from sklearn.metrics import accuracy_score` and then plotting it using seaborn lineplot. 
 
-![github-small](https://github.com/Samuel-the-crack/Spotify-Popularity-Forecast/blob/main/lineplot_Acc.png)
+<img src="https://github.com/Samuel-the-crack/Spotify-Popularity-Forecast/blob/main/lineplot_Acc.png" width="300" height="280">
 
-As we can see the lineplot above the accuracy is quite low, it's because the independent variable not highly affect the target which is 'Popularity'.
+As we can see the lineplot above the accuracy is quite low, it's because the independent variable not highly affect the target which is 'Popularity'. For further informations and source code you can see it on this [link](https://github.com/Samuel-the-crack/Spotify-Popularity-Forecast/blob/main/spotify%20project%20KNN.ipynb)
